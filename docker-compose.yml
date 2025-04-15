@@ -1,0 +1,9 @@
+version: '3'
+services:
+  hpa:
+    image: natyaninchayanuwong/hpa-project
+    volumes:
+      - ./data/input:/input
+      - ./data/output:/output
+
+    command: /input/input.txt /output/output.out
