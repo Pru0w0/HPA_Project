@@ -2,6 +2,19 @@
 For AMD user : docker pull natyaninchayanuwong/hpa-project-amd
 For ARM user : docker pull natyaninchayanuwong/hpa-project
 
+# Project structure
+HPA_Project
+|
+|-- data
+|   |-- input
+|   |-- output
+|
+|-- docker-compose.yml
+|-- Dockerfile
+|-- HPA_Project_ortools.py
+|-- README.md
+|-- requirements.txt
+
 # Usage
 Command : time docker run -v ./data/input:/input  -v ./data/output:/output [your docker image] /input/grid-6-7.txt /output/grid-6-7.out
 
